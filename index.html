@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <script src="app.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+</head>
+
+<body onload="showQuestion(0)">
+
+  <div class="text-center">
+    <h1 class="text-danger table table-danger">Quiz App</h1>
+  </div>
+<div class="col-md-10">
+ 
+    <div class="card text-center">
+        <div class="card-header flex-xl-row">
+          Time
+         <p id="count">
+<span id="min">00</span>
+<span>:</span>
+<span id="second">00</span>
+</p>
+        </div>
+        <div class="table-responsive"> 
+          <table class="table table-condensed table-bordered table-hover">
+  <tr>
+    <td><h1 s="card-title" id="questionElement">Special title treatment</h5></td>
+</tr>
+<tr>
+  <td><p class="card-text p-2 optionElement" ></p></td>
+</tr>
+  
+<tr>
+  <td><p class="card-text p-2 optionElement" ></p></td>
+</tr>
+<tr>
+  <td><p class="card-text p-2 optionElement" ></p></td>
+</tr>
+<tr>
+  <td><p class="card-text p-2 optionElement" ></p></td>
+</tr>
+<tr>
+  <td>
+    <div class="card-footer text-muted float-left">
+      <a href="#"  onclick="nextQuestion()" class="btn btn-primary">Next</a>
+  </div>
+
+  </td>
+</tr>
+</table>
+
+
+
+      
+        \
+      </div>
+   </div>
+
+</body>
+</html>
