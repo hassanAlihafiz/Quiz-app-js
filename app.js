@@ -50,6 +50,7 @@ function timer(){
         mint++;
         second=0
         console.log("mintues"+mint)
+        
         document.getElementById("min").innerHTML=checkMin(mint)
     }
 
